@@ -22,6 +22,5 @@ All files with `*.spec.js` will be executed.
 ```bash
 npm run docs
 ```
-
-All files with `*.spec.js` will be executed.
+A new folder will generated "js_doc", you can change folder name in doc-config.json.
 
