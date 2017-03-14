@@ -1,0 +1,34 @@
+{
+  "name": "js_seed",
+  "version": "1.0.0",
+  "description": "Use to test your javascript algorithms or simple js",
+  "main": "index.js",
+  "scripts": {
+    "docs": "gulp jsdoc",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpcode/js_seed.git"
+  },
+  "keywords": [
+    "seed",
+    "javascript",
+    "algorithms"
+  ],
+  "author": "Jpcode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpcode/js_seed/issues"
+  },
+  "homepage": "https://github.com/jpcode/js_seed#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-mocha": "^4.1.0",
+    "gulp-shell": "^0.6.3",
+    "jsdoc": "^3.4.3",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
+  }
+}

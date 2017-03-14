@@ -1,0 +1,21 @@
+{
+    "tags": {
+        "allowUnknownTags": true
+    },
+    "source": {
+        "include": [
+            "./src/adhoc/"
+        ],
+        "includePattern": ".+\\.js(doc)?$",
+        "excludePattern": "docs"
+    },
+    "plugins": [],
+    "opts": {
+        "template": "templates/default",
+        "encoding": "utf8",
+        "destination": "js_doc",
+        "recurse": true,
+        "private": false,
+        "readme": "./readme.md"
+    }
+}
