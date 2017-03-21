@@ -65,9 +65,9 @@
           }
       }
       if ( count >= 2 ) return false;
-      if ( count == 0 ) return true;
-      if ( p == a.length - 1 ) return true;
-      if ( p == 1 ) return true;
+      if ( count === 0 ) return true;
+      if ( p === a.length - 1 ) return true;
+      if ( p === 1 ) return true;
       
       //1 
       var current = a[ p ];

@@ -1,6 +1,6 @@
 'use strict';
 var assert = require('assert');
-var almostIncreasingSequence = require('../../../src/adhoc/almostIncreasingSequence').almostIncreasingSequence;
+var almostIncreasingSequence = require('../../src/adhoc/almostIncreasingSequence').almostIncreasingSequence;
 describe('Adhoc', function() {
   describe('almostIncreasingSequence()', function() {
     it('should return false for a = [1, 3, 2, 1]', function() {
